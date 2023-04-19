@@ -17,8 +17,6 @@ public class Exer017 {
 		System.out.print("digite o tamanho da área a ser pintada(em m²): ");
 		areaASerPintada = input.nextInt();
 
-		input.close();
-
 		litrosDeTintaNecessarios = areaASerPintada / 6;
 		
 		if(areaASerPintada % 6 != 0) {
@@ -30,6 +28,8 @@ public class Exer017 {
 		System.out.println("2 - comprar galões apenas, preço dos galões: R$25,00,");
 		System.out.println("3 - comprar latas e galões.");
 		int opcao = input.nextInt();
+
+		input.close();
 		
 		switch (opcao){
 		case 1: 
