@@ -12,6 +12,8 @@ public class Exer006 {
 		double raioDoCirculo = input.nextDouble();
 		
 		double areaDoCirculo = Math.PI * Math.pow(raioDoCirculo, 2);
+
+		input.close();
 		
 		//mostra o resultado do calculo e converte para metros(divide a area por 100)
 		System.out.printf("a área do círculo é de: %.2fm", areaDoCirculo / 100);

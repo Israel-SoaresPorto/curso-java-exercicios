@@ -18,6 +18,8 @@ public class Exer009 {
 		
 		System.out.print("digite a temperatura em farenheit: ");
 		int temperaturaEmFarenheit = input.nextInt();
+
+		input.close();
 		
 		int temperaturaEmCelsius = 5 * (temperaturaEmFarenheit - 32) / 9;
 		

@@ -10,6 +10,8 @@ public class Exer012 {
 		
 		System.out.print("digite a sua altura: ");
 		float altura = input.nextFloat();
+
+		input.close();
 		
 		double pesoIdeal = 72.7 * altura - 58;
 		

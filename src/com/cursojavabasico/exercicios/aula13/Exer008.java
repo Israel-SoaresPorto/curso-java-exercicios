@@ -14,6 +14,8 @@ public class Exer008 {
 		
 		System.out.print("quantas horas voçê trabalha por mês? ");
 		int horasTrabalhadasPorMes = input.nextInt();
+
+		input.close();
 		
 		float salarioMensal = salarioPorHora * horasTrabalhadasPorMes;
 		

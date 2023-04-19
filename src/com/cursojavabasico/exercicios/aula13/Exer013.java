@@ -14,6 +14,8 @@ public class Exer013 {
 		
 		System.out.print("seu sexo: m - masculino, f - feminino: ");
 		String sexo =  input.next();
+
+		input.close();
 		
 		switch (sexo) {
 			case "f":

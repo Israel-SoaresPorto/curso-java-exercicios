@@ -10,6 +10,8 @@ public class Exer005 {
 		
 		System.out.print("digite um valor em metros: ");
 		double metros = input.nextDouble();
+
+		input.close();
 		
 		double centimetros = metros * 100;
 		

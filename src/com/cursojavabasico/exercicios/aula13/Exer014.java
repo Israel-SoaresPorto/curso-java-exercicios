@@ -13,6 +13,8 @@ public class Exer014 {
 		
 		System.out.print("digite o kg de peixes que pescou: ");
 		peso = input.nextDouble();
+
+		input.close();
 		
 		if(peso > 50) {
 			System.out.println("voçê execedeu o peso limite.");

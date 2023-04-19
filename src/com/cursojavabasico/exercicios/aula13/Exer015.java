@@ -16,6 +16,8 @@ public class Exer015 {
 		
 		System.out.print("digite o seu salário bruto: ");
 		salarioBruto = input.nextDouble();
+
+		input.close();
 		
 		descontoIR = salarioBruto * 0.11;
 		descontoINSS = salarioBruto * 0.08;

@@ -16,6 +16,8 @@ public class Exer016 {
 		System.out.print("digite o tamanho da área a ser pintada(em m²): ");
 		areaASerPintada = input.nextInt();
 
+		input.close();
+
 		litrosDeTintaNecessarios = areaASerPintada / 3;
 
 		if(areaASerPintada % 6 != 0) {

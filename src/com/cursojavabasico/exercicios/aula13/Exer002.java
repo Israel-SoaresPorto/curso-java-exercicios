@@ -10,8 +10,11 @@ public class Exer002 {
 		
 		System.out.print("digite algum número: ");
 		int numero = input.nextInt();
+
+		input.close();
 		
 		System.out.println("o número informado foi: " + numero);
+
 
 	}
 

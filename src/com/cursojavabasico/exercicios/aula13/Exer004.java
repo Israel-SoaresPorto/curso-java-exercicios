@@ -19,6 +19,8 @@ public class Exer004 {
 		
 		System.out.print("digite a nota do 4° bimestre: ");
 		float nota4 = input.nextFloat();
+
+		input.close();
 		
 		float media = (nota1 + nota2 + nota3 + nota4) / 4;
 		

@@ -13,6 +13,8 @@ public class Exer003 {
 		
 		System.out.print("digite o segundo número: ");
 		int numero2 = input.nextInt();
+
+		input.close();
 		
 		int soma = numero1 + numero2;
 		

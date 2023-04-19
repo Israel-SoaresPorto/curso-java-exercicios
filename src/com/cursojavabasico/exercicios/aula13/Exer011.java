@@ -16,6 +16,8 @@ public class Exer011 {
 		
 		System.out.print("digite o terceiro número (real): ");
 		double numero3 = input.nextDouble();
+
+		input.close();
 		
 		int calculo1 = (numero1 * 2) * (numero2 / 2);
 		double calculo2 = (numero1 * 3) + numero3;

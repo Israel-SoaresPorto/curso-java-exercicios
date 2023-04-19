@@ -10,6 +10,8 @@ public class Exer010 {
 		
 		System.out.print("digite a temperatura em celsius: ");
 		int temperaturaEmCelsius = input.nextInt();
+
+		input.close();
 		
 		double temperaturaEmFarenheit = 1.8 * temperaturaEmCelsius + 32;
 		

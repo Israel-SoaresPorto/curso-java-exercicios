@@ -10,6 +10,8 @@ public class Exer007 {
 		
 		System.out.print("digite o valor do lado do quadrado(em cm): ");
 		double ladoDoQuadrado = input.nextDouble();
+
+		input.close();
 		
 		double areaDoQuadrado = Math.pow(ladoDoQuadrado, 2);
 		
