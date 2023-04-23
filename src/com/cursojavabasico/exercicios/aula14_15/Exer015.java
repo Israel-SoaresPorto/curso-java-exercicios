@@ -34,10 +34,10 @@ public class Exer015 {
 
                     System.out.println("é um triângulo " + tipoDoTriangulo);
                     
-                } else {
-                    System.out.println("não é um triângulo");
-                }
+                } 
             }
+        } else {
+            System.out.println("não é um triângulo");
         }
     }
 }
