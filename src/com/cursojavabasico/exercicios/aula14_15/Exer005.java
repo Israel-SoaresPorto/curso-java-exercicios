@@ -19,10 +19,12 @@ public class Exer005 {
 
         media = (nota1 + nota2) / 2;
 
-        if(media >= 7) {
-            System.out.println("ESTA APROVADO!");
-        } else if(media == 10) {
+        System.out.printf("sua média: %.1f %n", media);
+
+        if(media == 10) {
             System.out.println("APROVADO COM DISTINÇÃO!");
+        } else if(media >= 7) {
+            System.out.println("ESTA APROVADO!");
         } else {
             System.out.println("ESTÁ REPROVADO!");
         }
